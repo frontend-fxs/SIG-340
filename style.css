@@ -1,0 +1,62 @@
+.fxs_q_wrapper,
+.fxs_q_title,
+.fxs_q_header,
+.fxs_q_body,
+.fxs_q_row {
+    width: 100%;
+    float: left;
+}
+
+.fxs_q_title h3 {
+    float: left;
+}
+
+.fxs_q_title a {
+    float: right;
+}
+
+.fxs_q_header {
+    background-color: #edecf2;
+}
+
+.fxs_q_body {}
+
+.fxs_q_item {
+    float: left;
+}
+
+.fxs_q_row {
+    border: 1px solid #F0F0F1;
+    background-color: #FFF;
+}
+
+.fxs_q_row:hover {
+    background-color: #F0F0F1;
+}
+
+.fxs_q_row.fxs_q_now {
+    background-color: #F0F0F1;
+    border: 1px solid white;
+}
+
+.fxs_q_row.fxs_q_now:hover {
+    background-color: #FFF;
+}
+
+.fxs_q_buy {
+    background-color: #a6ddd1;
+}
+
+.fxs_q_now .fxs_q_buy {
+    background-color: #338473;
+    color: white;
+}
+
+.fxs_q_sell {
+    background-color: #f0c7c1;
+}
+
+.fxs_q_now .fxs_q_sell {
+    background-color: #D25746;
+    color: white;
+}
